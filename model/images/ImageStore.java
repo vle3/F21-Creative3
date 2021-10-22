@@ -12,11 +12,13 @@ public class ImageStore
     public static BufferedImage cubeShelf;    
     public static BufferedImage floatShelf;    
     public static BufferedImage bookShelf;    
+    public static BufferedImage cart;
 
     static{
-        cubeShelf = readImage("model/images/cube.jpg", 70, 50);
-        floatShelf = readImage("model/images/float.jpg", 80, 60);
+        cubeShelf = readImage("model/images/cube.jpg", 80, 80);
+        floatShelf = readImage("model/images/float.jpg", 80, 80);
         //bookShelf = readImage("model/images/book.jpg", 70, 50);
+        cart = readImage("model/images/cart.png" , 80, 60);
     }
 
     public static BufferedImage readImage(String path, int width, int height)

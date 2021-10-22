@@ -23,7 +23,7 @@ public class CubeShelf extends Shelf{
     public void render(Graphics2D g2) {
         g2.drawImage(getImage(), null, getX() , getY());    
         g2.setColor(Color.blue);    
-        g2.drawString("Dimension =" + dimension, getX(), getY());
+        g2.drawString("Price = $" + super.getPrice(), getX(), getY());
     }
     
 }
